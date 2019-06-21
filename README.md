@@ -33,9 +33,10 @@ The other task was to predict the job title based on the description provided. F
 **Findings:**
 1. I constructed a linear model to estimate median salary, simple linear regression had a negative score that means my model did worse than average. 
 2. Secondly,I used linear regression with regularization, but none gave good results. Then I used GridsearchCV with Logistic Regression, Decision tree, Random forest and SVM. 
-3. The classification models performed well with 86% accuracy achieved by the SVM approximately 36% better than the baseline. 4. The top features that have the biggest influence in the predicting salary was job title, job work type and area of the job post.
+3. The classification models performed well with 86% accuracy achieved by the SVM approximately 36% better than the baseline.
+4. The top features that have the biggest influence in the predicting salary was job title, job work type and area of the job post.
 5. For predicting the job title from the job description, the results of Countvectorizer and tfidfvectorizer were put in classification models multinomial naïve bayes, Logistic Regression and random forest. I found the results Countvectorizer had good scores over tfidf vectorizer.
-6.The random forest with countvectorizer was able to classify different job roles with 66% accuracy, approximately 15% better than baseline. This model found few top skills important for various job types. The results were not very good, because there is lots of overlapping between the various data related jobs.
+6. The random forest with countvectorizer was able to classify different job roles with 66% accuracy, approximately 15% better than baseline. This model found few top skills important for various job types. The results were not very good, because there is lots of overlapping between the various data related jobs.
 
 **Conclusions:**
 
